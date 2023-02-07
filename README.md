@@ -1,6 +1,6 @@
 # Dōjō
 
-Dojo is a full stack toolchain for developing onchain games in Cairo. Dojo leverages the afforadances provided by the Cairo language to offer an best-in-class developer experience for easily integration blockchain properties into their games.
+Dojo is a full stack toolchain for developing onchain games in Cairo. Dojo leverages the affordances provided by the Cairo language to offer a best-in-class developer experience for easily integration blockchain properties into their games.
 
 - Simple composition through the Entity Component System pattern
 - Concise implementations leveraging language plugins and macros
@@ -136,7 +136,7 @@ In the expanded form, entrypoints take `entity_id` as the first parameter.
 
 #### Systems
 
-A system is a free function that takes as input a set of entities to operate on. Systems define a `Query` which describes a set of Components to query a worlds entities by. At compile time, the `Query` is compiled, leveraging [deterministic addresssing](#Addressing) to inline efficient entity lookups.
+A system is a free function that takes as input a set of entities to operate on. Systems define a `Query` which describes a set of Components to query a worlds entities by. At compile time, the `Query` is compiled, leveraging [deterministic addressing](#Addressing) to inline efficient entity lookups.
 
 ```rust
 #[system]
